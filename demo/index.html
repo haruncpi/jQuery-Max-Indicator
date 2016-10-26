@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Max Indicator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="../jquery-max-indicator.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Jquery Max Indicator</h2>
+				<p>By: Md.Harun-Ur-Rashid</p>
+				<hr>
+				
+				<div class="row">
+					<div class="col-md-3">
+						<p> Max length: 10 <br>
+						<input type="text" autofocus maxlength="10" class="my-inputbox" placeholder="type something"></p>
+						
+						<p> Max length: 20 <br>
+						<input type="text" maxlength="20" class="my-inputbox" placeholder="type something"></p>
+
+						<p> Max length: 13  and color <br>
+						<input type="text" maxlength="13" class="my-inputbox2" placeholder="type something"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>How to use?</h2>
+				<p>
+					1. Download the jquery-max-indicator.min.js and add into your page <br>
+					2. Add this in your script <br>
+				</p>
+<pre>
+$(function(){ 
+  $('.my-inputbox').maxIndicator();
+})
+</pre>
+			<p>3. If you want to change the indicator color then pass color value</p>
+<pre>
+$(function(){ 
+  $('.my-inputbox').maxIndicator({color:'orange'});
+})
+</pre>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(function(){
+			$('.my-inputbox').maxIndicator();
+			$('.my-inputbox2').maxIndicator({color:'orange'});
+		})
+	</script>
+</body>
+</html>
