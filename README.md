@@ -14,5 +14,6 @@ $(function(){
 })
 ```
 
-* Author: Md.Harun-Ur-Rashid 
+* Author: Md.Harun-Ur-Rashid
+* Demo: [Click Here](https://haruncpi.github.io/jQuery-Max-Indicator)
 * Website: [learn24bd.com](http://learn24bd.com)
